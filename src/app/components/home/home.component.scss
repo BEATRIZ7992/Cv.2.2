@@ -5,7 +5,7 @@
      font-family: 'Open Sans Condensed', sans-serif;
      h1{
      font-size:100px;
-     color: rgb(51, 50, 50);
+    
      text-align: center;
      margin-top: 200px;
      color: white;
@@ -15,6 +15,7 @@
  img{
     background-size: cover;
     background-position: center;
+    
    
     width: 100%;
     opacity: 0.3;
@@ -32,3 +33,40 @@
     }
   
 }
+
+@media(min-width: 768px){
+ .container h1{
+   
+   margin-top: 600px;
+   color: black;
+   font-size: 100px;
+  
+ }
+}
+
+@media(max-width: 700px){
+  .container h1{
+    
+    margin-top: 220px;
+    color: black;
+    font-size: 50px;
+   
+  }
+ }
+
+ @media(min-width: 1200px){
+
+  .container h1{
+    font-size:100px;
+    
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+   
+  }
+ }
+
+
+
+
+

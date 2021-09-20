@@ -1,3 +1,4 @@
+
 const $form = document.querySelector('#form')
 $form.addEventListener('submit', handlesubmit)
 
@@ -11,6 +12,9 @@ async function handleSubmit(event) {
             'Accept': 'applications/json'
         }
     })
-
+    if (response.ok) {
+        this.reset()
+        alert('Gracias por contactar')
+    }
 
 }

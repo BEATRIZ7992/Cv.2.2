@@ -50,3 +50,73 @@
     
       }
     }
+
+    @media(max-width: 700px){
+        .container{
+            display: grid;
+            
+            color: rgb(21, 58, 82);
+            padding: 20px;
+            font-weight: lighter;
+            font-family:unset;
+            grid-template-columns: 1fr 1fr ;
+            grid-template-rows: 1fr  ;
+            margin-bottom: 0px;
+        }
+        .foto2{
+            max-height:130px ;
+            max-width: 130px;
+        
+        }
+        .foto1{
+            background-size: cover;
+            background-position: center;
+        
+            width: 100%;
+            
+            opacity: 0.1;
+            
+            position: absolute;
+            top:-50px;
+              
+             
+            opacity: 0.3;
+            z-index: -2;
+            margin-top: 90px;
+            #foto2{
+                height:600vh;
+               
+               
+            
+              }
+            }
+        
+          }
+         
+@media(min-width: 700px){
+    .container{
+        display: grid;
+        
+        color: rgb(21, 58, 82);
+        padding: 20px;
+        font-weight: lighter;
+        font-family:unset;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr ;
+        margin-bottom: 30px;
+    }
+             }
+ @media(min-width: 1200px){
+            .container{
+                display: grid;
+                
+                color: rgb(21, 58, 82);
+                padding: 20px;
+                font-weight: lighter;
+                font-family:unset;
+                grid-template-columns: 1fr 1fr 1fr ;
+                grid-template-rows: 1fr 1fr 1fr ;
+                margin-bottom: 30px;
+            }
+         
+          }

@@ -1,5 +1,6 @@
 import { Component, ElementRef, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-contacto',
@@ -10,7 +11,12 @@ export class ContactoComponent implements OnInit {
 
   formulario: FormGroup
 
-  constructor(private elementRef: ElementRef) {
+  constructor(
+    private elementRef: ElementRef,
+
+    private router: Router) {
+
+
 
 
     this.formulario = new FormGroup({
@@ -57,10 +63,7 @@ export class ContactoComponent implements OnInit {
   }
 
   public ngOnInit() {
-    var s = document.createElement("script");
-    s.type = "text/javascript";
-    s.src = "http://somedomain.com/somescript";
-    this.elementRef.nativeElement.appendChild(s);
+
   }
 
 
@@ -79,6 +82,7 @@ export class ContactoComponent implements OnInit {
 
 
   }
+
 
 }
 

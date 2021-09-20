@@ -16,7 +16,7 @@
 .container{
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 50px;
-    margin-left: 200px;
+   
    
 }
 
@@ -59,3 +59,55 @@ a{
         color: black;
    
 }
+
+
+   
+   @media(max-width: 700px){
+
+  .container .row{
+        font-family: 'Open Sans Condensed', sans-serif;
+        
+        
+        margin-top: 60px;
+        margin-left: 50px;
+        margin-bottom: 200px;
+        
+        
+       
+    }
+    .container .row .codigo{
+        margin-bottom: 10px;
+        
+        
+       
+    }
+    }
+   
+    @media(min-width: 700px){
+        .container .row{
+
+          font-family: 'Open Sans Condensed', sans-serif;
+        
+        
+        margin-top: 400px;
+        margin-left: 70px;
+        margin-bottom: 200px;
+          
+         
+        }
+       }
+    @media(min-width: 1200px){
+        .container .row{
+
+            font-family: 'Open Sans Condensed', sans-serif;
+          
+          
+          margin-top: 100px;
+          margin-left: 70px;
+          margin-bottom: 200px;
+            
+           
+          }
+         
+   
+    }

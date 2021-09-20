@@ -38,7 +38,9 @@ import { CvComponent } from './components/cv/cv.component';
 
 
   ],
-  providers: [],
+  providers: [
+
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
