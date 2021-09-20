@@ -78,7 +78,7 @@ button{
 
   @media(max-width: 700px){
       button{
-        margin-left: 100px;
+       
         
         margin-bottom: 170px;
         font-size: 30px;
@@ -105,7 +105,7 @@ button{
     }  
       .container{
   
-    max-height: 800px;
+    max-height: 500px;
     max-width: 900px;
     background-size: cover;
     opacity: 0.8;
@@ -131,46 +131,21 @@ button{
         display: none;
     }
    p{
-        margin-top: 10pxpx;
+        margin-top: 10px;
     }
+    
   }
 
    
  
- @media(max-width: 1280px){
-    
-    .contenedor{
-        display: none;
-    }
-    .cuadro{
-        height: 100px;
-        width: 600px;
-        margin-top: 450px;
-        margin-left: 110px;
-        text-align: center;
-    }
-    h3{
-        text-align: center;
-        margin-top: 250px;
-        
-    }
-
-    h1{
-        display: none;
-    }
-    button{
-        margin-left: 380px;
-        margin-top: 100px;
-        margin-bottom: 170px;
-        font-size: 30px;
-      }
-         }
+   
          
-@media(min-width: 1000px){
+@media(min-width: 1240px){
    
         .hidden{
            display: none;
         }   
+        
      
       }
 
